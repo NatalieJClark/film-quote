@@ -9,6 +9,7 @@
 </p>
 
 ## Objectives
+Challenge instructions:
 - [x] Create a new Android application "Film Quote" which shows your favourite film quote, and the name of the film from which it is quoted.
 - [x] You should use a different font size for the quote itself, and for the movie name.
 - [x] Ideally, use three different @Composable functions — one of the quote, one for the film name, and one for the overall screen.
