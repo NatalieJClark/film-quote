@@ -1,7 +1,7 @@
 # Film Quote
 
 ## Introduction
-- This project uses Jetpack Compose to build a simple Android app, that displays a film quote and title on the screen.
+- This project uses Jetpack Compose to build a simple Android app, which displays a film quote and title on the screen, and a clickable button.
 - Building this app was a challenge in Makers Module 3 - Mobile Applications: Android applications.
 
 <p align="center">
