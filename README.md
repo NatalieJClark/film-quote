@@ -25,3 +25,4 @@ Build and refresh preview:
 Or view in an Android Virtual Device (AVD) of your choice:
 - Set up an AVD in `Device Manager`
 - Click ![image](https://github.com/NatalieJClark/greeting-card/assets/107806810/fa7cb2c8-6a77-4307-bb4a-aedeb0b9dbe8) to run the app
+- Try clicking the `Click me!` button and see the println() output in the `Logcat` window
