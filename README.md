@@ -5,7 +5,7 @@
 - Building this app was a challenge in Makers Module 3 - Mobile Applications: Android applications.
 
 <p align="center">
-  <img width="250" alt="image" src="https://github.com/NatalieJClark/film-quote/assets/107806810/c268e85d-74be-4a37-b3ca-af089e310df1">
+<img width="255" alt="image" src="https://github.com/NatalieJClark/film-quote/assets/107806810/97ca6f70-c307-498d-8881-1c08c679d50e">
 </p>
 
 ## Objectives
