@@ -3,10 +3,12 @@ package com.example.filmquote
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -17,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -44,18 +47,30 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Screen() {
+fun Screen(modifier: Modifier = Modifier) {
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxSize()
             .background(Color.Cyan)
     ) {
+        FilmImage()
         FilmQuote()
         FilmName()
         FilmButton()
     }
+}
+
+@Composable
+fun FilmImage(modifier: Modifier = Modifier) {
+    Image(
+        painter = painterResource(id = R.drawable.buzz_lightyear),
+        contentDescription = "Buzz Lightyear",
+        modifier = modifier
+            .padding(30.dp)
+            .fillMaxWidth()
+    )
 }
 
 @Composable
@@ -84,10 +99,10 @@ fun FilmName(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun FilmButton() {
+fun FilmButton(modifier: Modifier = Modifier) {
     Button(
         onClick = { println("Button was clicked!") },
-        modifier = Modifier
+        modifier = modifier
             .padding(8.dp),
         colors = ButtonDefaults.buttonColors(containerColor = Purple40)
     ) {
