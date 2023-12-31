@@ -19,6 +19,8 @@ Challenge instructions:
 <img width="1012" alt="image" src="https://github.com/NatalieJClark/film-quote/assets/107806810/9fa170e4-4ae8-434a-b60e-e6f1a003a3d0">
 
 ## Setup
+Clone this repo and open in Android Studio  
+
 Build and refresh preview:
 - `Ctrl + Shift + Cmd + R`
 
